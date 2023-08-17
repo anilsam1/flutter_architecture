@@ -1,0 +1,200 @@
+[
+  {
+    "id": 40,
+    "title": "3 unit stand tv berdiri",
+    "price": 100000,
+    "description": "stand tv bisa potrait dan bisa landscape",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T05:49:38.000Z",
+    "updatedAt": "2023-12-12T07:09:07.000Z",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T05:49:38.000Z"
+    }
+  },
+  {
+    "id": 41,
+    "title": "3 unit tv 50 inch",
+    "price": 900000,
+    "description": "tv potrait",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T05:49:38.000Z",
+    "updatedAt": "2023-12-12T07:07:47.000Z",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T05:49:38.000Z"
+    }
+  },
+  {
+    "id": 42,
+    "title": "2 unit tv 43 inch",
+    "price": 700000,
+    "description": "tv potrait",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T05:49:38.000Z",
+    "updatedAt": "2023-12-12T07:06:58.000Z",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T05:49:38.000Z"
+    }
+  },
+  {
+    "id": 43,
+    "title": "3 unit tv 50 inch",
+    "price": 400000,
+    "description": "tv landscape",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T05:49:38.000Z",
+    "updatedAt": "2023-12-12T07:06:12.000Z",
+    "category": {
+      "id": 4,
+      "name": "Shoes",
+      "image": "https://i.imgur.com/qNOjJje.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T05:49:38.000Z"
+    }
+  },
+  {
+    "id": 61,
+    "title": "4 unit stand tv matador",
+    "price": 100000,
+    "description": "stand tv tidur bentuk landscape",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T07:22:49.000Z",
+    "updatedAt": "2023-12-12T07:22:49.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 62,
+    "title": "2 unit photobooth box",
+    "price": 3500000,
+    "description": "photobooth box siap jadi",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T07:24:33.000Z",
+    "updatedAt": "2023-12-12T07:24:33.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 66,
+    "title": "serum",
+    "price": 345,
+    "description": "1",
+    "images": [
+      "https://i.imgur.com/QkIa5tT.jpeg"
+    ],
+    "creationAt": "2023-12-12T09:10:20.000Z",
+    "updatedAt": "2023-12-12T09:10:20.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 67,
+    "title": "New Product",
+    "price": 15,
+    "description": "A description",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T09:10:44.000Z",
+    "updatedAt": "2023-12-12T09:10:44.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 68,
+    "title": "New Product",
+    "price": 15,
+    "description": "A description",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T09:10:44.000Z",
+    "updatedAt": "2023-12-12T09:10:44.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 69,
+    "title": "New Product",
+    "price": 15,
+    "description": "A description",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T09:15:54.000Z",
+    "updatedAt": "2023-12-12T09:15:54.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  },
+  {
+    "id": 70,
+    "title": "New Product",
+    "price": 15,
+    "description": "A description",
+    "images": [
+      "https://picsum.photos/200/300"
+    ],
+    "creationAt": "2023-12-12T09:15:54.000Z",
+    "updatedAt": "2023-12-12T09:15:54.000Z",
+    "category": {
+      "id": 1,
+      "name": "Clothes",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2023-12-12T05:49:38.000Z",
+      "updatedAt": "2023-12-12T09:23:34.000Z"
+    }
+  }
+]

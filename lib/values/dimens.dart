@@ -28,3 +28,7 @@ const double keyboardIconHW = 80.0;
 //RADIUS
 const kBorderRadius = 15.0;
 const kImageBorderRadius = 12.0;
+
+
+const double defpaultPadding = 16.0;
+const Duration defaultDuration = Duration(milliseconds: 300);

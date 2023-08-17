@@ -8,6 +8,7 @@ class AppButton extends StatelessWidget {
   final double? elevation;
   final double? height;
   final double? radius;
+  final bool? welcome;
   final double? padding;
   final bool buttonColor;
 
@@ -20,26 +21,47 @@ class AppButton extends StatelessWidget {
     this.radius,
     this.padding,
     this.buttonColor = false,
+    this.welcome,
   });
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
       width: double.infinity,
-      height: 60.h,
-      child: MaterialButton(
-        elevation: elevation,
-        padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
-        onPressed: callback,
-        color: buttonColor ? AppColor.white : AppColor.white,
+      height: 53.h,
+      decoration: ShapeDecoration(
+        gradient: welcome ?? true
+            ? LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Color(0xFFEFD9D5),
+                  Color(0xFF75DCD8),
+                  Color(0xFF73DDD9),
+                  Color(0xFFE1D9D5),
+                  Color(0xFFEFD9D5)
+                ],
+              )
+            : LinearGradient(
+                begin: Alignment(-0.19, 0.98),
+                end: Alignment(0.19, -0.98),
+                colors: [Color(0xFF73DDD9), Color(0xFFEFD9D5)],
+              ),
         shape: RoundedRectangleBorder(
-          side: BorderSide(color: AppColor.primaryColor, width: 2.w),
-          borderRadius: BorderRadius.all(Radius.circular(radius ?? 10)),
+          borderRadius: BorderRadius.circular(26.50),
         ),
+      ),
+      child: MaterialButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(26.50),
+        ),
+        elevation: elevation,
+        padding: const EdgeInsets.only(top: 17.0, bottom: 17.0),
+        onPressed: callback,
+        color: buttonColor ? AppColor.grey : AppColor.transparent,
         child: Text(
           label,
-          style: textMedium.copyWith(
-              color: AppColor.primaryColor, fontSize: 16.spMin),
+          style: textRegular.copyWith(color: AppColor.white),
         ),
       ),
     );
