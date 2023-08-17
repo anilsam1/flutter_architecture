@@ -7,8 +7,8 @@ class CustomAlertDialog extends StatelessWidget {
   final String subTitle;
   final String buttonOkText;
   final String buttonCancelText;
-  final Function()? onTapOkCallback;
-  final Function()? onTapCancelCallback;
+  final VoidCallback? onTapOkCallback;
+  final VoidCallback? onTapCancelCallback;
 
   const CustomAlertDialog({
     required this.title,
@@ -51,36 +51,37 @@ class CustomAlertDialog extends StatelessWidget {
               child: Text(
                 subTitle,
                 textAlign: TextAlign.center,
-                style: textMedium.copyWith(fontSize: 20.spMin),
+                style: textRegular.copyWith(fontSize: 20.spMin),
               ),
             ),
             Padding(
               padding: EdgeInsets.symmetric(vertical: 20.h, horizontal: 20.w),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   InkWell(
                     onTap: () {
                       Navigator.of(context).pop();
                       onTapCancelCallback!();
                     },
-                    child: LayoutBuilder(builder: (context, snapshot) {
-                      return Container(
-                        width: 100.w,
-                        height: 40.h,
-                        decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(30)),
-                          color: AppColor.primaryColor,
-                        ),
-                        child: Center(
-                          child: Text(
-                            buttonCancelText,
-                            style: textBold.copyWith(color: AppColor.white),
+                    child: LayoutBuilder(
+                      builder: (context, snapshot) {
+                        return Container(
+                          width: 100.w,
+                          height: 40.h,
+                          decoration: const BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(30)),
+                            color: AppColor.primaryColor,
                           ),
-                        ),
-                      );
-                    }),
+                          child: Center(
+                            child: Text(
+                              buttonCancelText,
+                              style: textBold.copyWith(color: AppColor.white),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ),
                   SizedBox(width: 20.w),
                   InkWell(
@@ -88,22 +89,24 @@ class CustomAlertDialog extends StatelessWidget {
                       Navigator.of(context).pop();
                       onTapOkCallback!();
                     },
-                    child: LayoutBuilder(builder: (context, snapshot) {
-                      return Container(
-                        width: 100.w,
-                        height: 40.h,
-                        decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(30)),
-                          color: AppColor.primaryColor,
-                        ),
-                        child: Center(
-                          child: Text(
-                            buttonOkText,
-                            style: textBold.copyWith(color: AppColor.white),
+                    child: LayoutBuilder(
+                      builder: (context, snapshot) {
+                        return Container(
+                          width: 100.w,
+                          height: 40.h,
+                          decoration: const BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(30)),
+                            color: AppColor.primaryColor,
                           ),
-                        ),
-                      );
-                    }),
+                          child: Center(
+                            child: Text(
+                              buttonOkText,
+                              style: textBold.copyWith(color: AppColor.white),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
                   ),
                 ],
               ),

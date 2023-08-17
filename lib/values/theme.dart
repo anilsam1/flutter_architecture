@@ -3,7 +3,7 @@ import 'package:flutter_demo_structure/values/colors.dart';
 import 'package:flutter_demo_structure/values/style.dart';
 
 final ThemeData appTheme = ThemeData(
-  primaryColor: AppColor.primaryColor,
+  primaryColor: AppColor.black,
   scaffoldBackgroundColor: const Color(0xfff9f9f9),
   visualDensity: VisualDensity.adaptivePlatformDensity,
   appBarTheme: AppBarTheme(
