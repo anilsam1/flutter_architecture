@@ -13,13 +13,13 @@ abstract class AuthRepository {
 
   Future<BaseResponse> logout();
 
-  Future<UserDataModel?>  getUserData() async{
-    Dio dio = Dio();
-    var responce =await dio.get(APIEndPoints.baseUrl);
-    if(responce.statusCode ==200) {
-      debugPrint("responce........................$responce");
-      return userDataModelFromJson(responce.data);
-    }
-    return null;
-  }
+  // Future<UserDataModel?>  getUserData() async{
+  //   Dio dio = Dio();
+  //   var responce =await dio.get(APIEndPoints.baseUrl);
+  //   if(responce.statusCode ==200) {
+  //     debugPrint("responce........................$responce");
+  //     return userDataModelFromJson(responce.data);
+  //   }
+  //   return null;
+  // }
 }
